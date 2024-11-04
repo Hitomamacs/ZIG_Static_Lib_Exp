@@ -1,0 +1,18 @@
+.{
+    .name = "build_system_demo",
+    .version = "0.0.0",
+    .dependencies = .{
+        .objlib = .{
+            .path = "object_library",
+        },
+        .staticlib = .{
+            .path = "static_library",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "README.md",
+    },
+}
